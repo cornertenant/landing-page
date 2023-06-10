@@ -1,3 +1,24 @@
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.container.one {
+
+}
+
+.container.two {
+    background-color: #e5e7eb;
+}
+
+.footer {
+
 }
