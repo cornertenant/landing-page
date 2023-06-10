@@ -156,8 +156,8 @@ button {                            /* usable for both buttons on the page */
     align-items: center;
     background-color: #3882f6;
     border-radius: 5px;
-    margin-top: 64px;
-    margin-bottom: 64px;
+    margin-top: 124px;
+    margin-bottom: 124px;
     width: 70%;
     padding: 36px;
 }
