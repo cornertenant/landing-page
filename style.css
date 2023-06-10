@@ -36,10 +36,10 @@ button {                            /* usable for both buttons on the page */
 
 .container.one, .footer {
     background-color: #1F2937;
-    display: flex;
 }
 
-.container.one {
+.container, .footer {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -87,7 +87,7 @@ button {                            /* usable for both buttons on the page */
 }
 
 .placeholder {                      /* image placeholder */
-    width: 350px;
+    width: 450px;
     height: 225px;
     background-color: lightslategray;
     display: flex;
@@ -96,3 +96,20 @@ button {                            /* usable for both buttons on the page */
     color: #f9faf8;
 }
 
+.call-to-action {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.cta-button button {
+    width: 120px;
+    height: 120px;
+    border: solid #3882f6;
+    background-color: white;
+}
+
+.cta-button {
+    width: 175px;
+    padding: 16px;
+}
