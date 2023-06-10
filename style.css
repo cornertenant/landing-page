@@ -27,12 +27,7 @@ button {                            /* usable for both buttons on the page */
     border: none;
 }
 
-.main button {                      /* only for the 'main' button */
-    background-color: #3282f6;
-    color: white;
-    margin-top: 16px;
-}                                   
-                                                     /* END OF ELEMENT selectors */  
+                                        /* END OF ELEMENT selectors */  
 
 .container.one, .footer {
     background-color: #1F2937;
@@ -42,6 +37,10 @@ button {                            /* usable for both buttons on the page */
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.container.one {
+    padding-bottom: 32px;
 }
 
 .header, .hero {                    /* applies for both, reducing duplicates*/
@@ -86,6 +85,12 @@ button {                            /* usable for both buttons on the page */
     height: auto;
 }
 
+.main button {
+    background-color: #3282f6;
+    color: white;
+    margin-top: 16px;
+}
+
 .placeholder {                      /* image placeholder */
     width: 450px;
     height: 225px;
@@ -96,7 +101,12 @@ button {                            /* usable for both buttons on the page */
     color: #f9faf8;
 }
 
-.call-to-action {
+.container.two {                    /* container two begins here */
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.call-to-action-holder {
     display: flex;
     text-align: center;
     flex-wrap: wrap;
