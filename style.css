@@ -19,38 +19,38 @@ a {
 }
 
 
-.header,
-.hero,
-.footer {
+.container.one, .footer {
     background-color: #1F2937;
+    display: flex;
+}
+
+.container.one {
+    flex-direction: column;
+    align-items: center;
 }
 
 .header {
-    border: solid;
     display: flex;
     justify-content: space-between;
     align-content: center;
     padding-top: 16px;
+    width: 70%;
 }
 
 .logo {
-    border: solid;
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8;
 }
 
-.links {
-    border: solid;
-}
-
 .hero {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex: auto;
     padding-top: 64px;
     padding-bottom: 64px;
+    width: 70%;
 }
 
 .hero h1 {
@@ -96,14 +96,3 @@ button {
     color: #f9faf8;
 }
 
-.container.one {
-
-}
-
-.container.two {
-    background-color: #e5e7eb;
-}
-
-.footer {
-
-}
