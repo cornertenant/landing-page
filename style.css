@@ -1,4 +1,4 @@
-body {
+body {                                                /* ELEMENT selectors */
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -19,6 +19,21 @@ a {
 }
 
 
+button {                            /* usable for both buttons on the page */
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+}
+
+.main button {                      /* only for the 'main' button */
+    background-color: #3282f6;
+    color: white;
+    margin-top: 16px;
+}                                   
+                                                     /* END OF ELEMENT selectors */  
+
 .container.one, .footer {
     background-color: #1F2937;
     display: flex;
@@ -29,12 +44,14 @@ a {
     align-items: center;
 }
 
-.header {
+.header, .hero {                    /* applies for both, reducing duplicates*/
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    padding-top: 16px;
     width: 70%;
+}
+
+.header {
+    padding-top: 16px;
 }
 
 .logo {
@@ -44,49 +61,32 @@ a {
 }
 
 .hero {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     flex: auto;
     padding-top: 64px;
     padding-bottom: 64px;
-    width: 70%;
 }
 
-.hero h1 {
+.hero h1 {                          /* hero heading */
     font-size: 48px;
     color: #e5e7eb;
     margin: 0px;
     font-weight: 900;
 }
 
-.hero p {
+.hero p {                           /* hero paragraph */
     font-size: 18px;
     color: #f9faf8;
     margin: 0px;
 }
 
 
-.main {
+.main {                             /* left item of 'hero' */
     width: 350px;
     height: auto;
 }
 
-button {
-    border-radius: 8px;
-    padding: 8px 32px;
-    font-weight: 700;
-    font-size: 16px;
-    border: none;
-}
-
-.main button {
-    background-color: #3282f6;
-    color: white;
-    margin-top: 16px;
-}
-
-.placeholder {
+.placeholder {                      /* image placeholder */
     width: 350px;
     height: 225px;
     background-color: lightslategray;
